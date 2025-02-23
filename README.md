@@ -15,12 +15,12 @@ That being said, if the actual sound files can be extracted from the game in the
 
 Now for the rules and how I interpreted them.
 
-Vertical:
+## Vertical:
 - The bell instrument always plays, but in combination with another instrument layer
 - If only two instrument layers are playing, it's always the bells and the arp
 - The lead instrument layer only plays if all other instrument are also playing
 
-Horizontal:
+## Horizontal:
 - Each variation of any layer (except the bell layer) can play maximum of one time in sequence
 - Before the lead layer starts playing, the bell, arp, strings and bass layers play for one round
 - The lead layer can play for a maximum of four times in sequence
@@ -32,8 +32,8 @@ Horizontal:
 
 The arp layer is replaced with a piano layer when a shrine is completed
 
-Proposed interpretation:
-Vertical:
+# Proposed interpretation:
+## Vertical:
 - **V1** The bell instrument always plays, but in combination with another instrument layer
 
   When initializing the layers, initialize it with the bell layer at least
@@ -44,7 +44,7 @@ Vertical:
 
   Check the layers: if the lead is present but another instrument is missing, remove the lead
 
-Horizontal:
+## Horizontal:
 - **H1** Each variation of any layer (except the bell layer) can play maximum of one time in sequence
   
   There is some leeway for interpretation, but based on the youtube video, a variation would be a given combination of numbered instruments. So if talking about sound files, the next set of sound files shall not be the exact same as the current set,	so it is possible to have some sound files in common but not everything, and the bell layer is excluded from this criterion.
